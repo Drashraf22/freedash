@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <aside>
+            <i  class="fa-solid fa-circle-xmark xmark-btn"></i>
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+                free <span>dash</span>
+            </div>
+            <ul>
+                <li class="active">
+                    <a href="#">
+                        <i class="fa-solid fa-house-user"></i>
+                        <span>dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-user"></i>
+                        <span>customer</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-scroll"></i>
+                        <span>order</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <span>anylatics</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>messages</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-note-sticky"></i>
+                        <span>products</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span>reports</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-plus"></i>
+                        <span>add product</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="logout">
+                <a href="#">
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        <span>logout</span>
+                </a>
+            </div>
+        </aside>
+        <div class="content">
+            <header class="d-f">
+                <h1>dashboard</h1>
+                <i id="bar" class="fa-solid fa-bars bar-btn"></i>
+                <div class="rt-head d-f align-center">
+                    <div class="toggle-btn">
+                        <i id="sun" data-star="light" class="fa-solid fa-sun active light"></i>
+                        <i id="moon" data-star="moon" class="fa-solid fa-moon"></i>
+                    </div>
+                    <div class="profile d-f align-center">
+                        <div class="profile-info">
+                            <h4>Ahmed</h4>
+                            <span>admin</span>
+                        </div>
+                        <div class="profile-img">
+                            <img src="images/profile-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="main-container">
+                <div class="middle">
+                    <input type="date">
+                    <div class="statics">
+                        <div class="statics-card">
+                            <div class="statics-info">
+                                <i class="fa-solid fa-chart-column"></i>
+                                <h5>total sales</h5>
+                                <p>$25.45</p>
+                                <span>last 24 hours</span>
+                            </div>
+                            <div class="statics-bar">
+                                <div class="processing-bar">
+                                    <div class="outer">
+                                        <div class="inner">
+                                            <span id="number-1">81%</span>
+                                        </div>
+                                    </div>
+                                    <svg>
+                                        <circle class="first-circle" cx="50" cy="50" r="42"></circle>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="statics-card">
+                            <div class="statics-info">
+                                <i class="fa-solid fa-chart-simple"></i>
+                                <h5>total experiences</h5>
+                                <p>$14.17</p>
+                                <span>last 24 hours</span>
+                            </div>
+                            <div class="statics-bar">
+                                <div class="processing-bar">
+                                    <div class="outer">
+                                        <div class="inner">
+                                            <span id="number-2">62%</span>
+                                        </div>
+                                    </div>
+                                    <svg>
+                                        <circle class="second-circle" cx="50" cy="50" r="42"></circle>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="statics-card">
+                            <div class="statics-info">
+                                <i class="fa-solid fa-arrow-down"></i>
+                                <h5>total income</h5>
+                                <p>$10.23</p>
+                                <span>last 24 hours</span>
+                            </div>
+                            <div class="statics-bar">
+                                <div class="processing-bar">
+                                    <div class="outer">
+                                        <div class="inner">
+                                            <span id="number-3">44%</span>
+                                        </div>
+                                    </div>
+                                    <svg>
+                                        <circle class="third-circle" cx="50" cy="50" r="42"></circle>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>recent orders</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>product name</th>
+                                <th>product number</th>
+                                <th>payment</th>
+                                <th>status</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>foldable mini drane</td>
+                                <td>56455</td>
+                                <td>due</td>
+                                <td class="pending">pending</td>
+                                <td>details</td>
+                            </tr>
+                            <tr>
+                                <td>larvender Drone</td>
+                                <td>36432</td>
+                                <td>refunded</td>
+                                <td class="declined">declined</td>
+                                <td>details</td>
+                            </tr>
+                            <tr>
+                                <td>ruko f11 pro Drone</td>
+                                <td>43544</td>
+                                <td>due</td>
+                                <td class="pending">pending</td>
+                                <td>details</td>
+                            </tr>
+                            <tr>
+                                <td>Drone with camera drone</td>
+                                <td>96543</td>
+                                <td>paid</td>
+                                <td>delivered</td>
+                                <td>details</td>
+                            </tr>
+                            <tr>
+                                <td>GPS 4K Drone</td>
+                                <td>23234</td>
+                                <td>paid</td>
+                                <td>delivered</td>
+                                <td>details</td>
+                            </tr>
+                            <tr>
+                                <td>DJI Air 25</td>
+                                <td>81322</td>
+                                <td>due</td>
+                                <td class="pending">pending</td>
+                                <td>details</td>
+                            </tr>
+                            <tr>
+                                <td>lazenge Drone</td>
+                                <td>00482</td>
+                                <td>paid</td>
+                                <td>delivered</td>
+                                <td>details</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="right-side">
+                    <h3>recent updates</h3>
+                    <div class="recent-card">
+                        <div class="recent-row d-f">
+                            <div class="recent-img">
+                                <img src="images/profile-2.jpg" alt="">
+                            </div>
+                            <div class="recent-info">
+                                <p><span>Ahmed Hamed</span> received his order of night tech</p>
+                                <small>3 minutes ago</small>
+                            </div>
+                        </div>
+                        <div class="recent-row d-f">
+                            <div class="recent-img">
+                                <img src="images/profile-3.jpg" alt="">
+                            </div>
+                            <div class="recent-info">
+                                <p><span>Esraa fahem</span> received his order of night tech</p>
+                                <small>14 minutes ago</small>
+                            </div>
+                        </div>
+                        <div class="recent-row d-f">
+                            <div class="recent-img">
+                                <img src="images/profile-4.jpg" alt="">
+                            </div>
+                            <div class="recent-info">
+                                <p><span>Mary Gado</span> received his order of night tech</p>
+                                <small>30 minutes ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="sales-h align-center">sales anylatics</h3>
+                    <div class="sales d-f">
+                        <div class="sales-img">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="sales-info">
+                            <p>online orders</p>
+                            <small>last 24 hours</small>
+                        </div>
+                        <b>+33%</b>
+                        <strong>4352</strong>
+                    </div>
+                    <div class="sales d-f">
+                        <div class="sales-img">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="sales-info">
+                            <p>offline orders</p>
+                            <small>last 24 hours</small>
+                        </div>
+                        <b class="deepRed">-17%</b>
+                        <strong>1100</strong>
+                    </div>
+                    <div class="sales d-f">
+                        <div class="sales-img">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="sales-info">
+                            <p>new customers</p>
+                            <small>last 24 hours</small>
+                        </div>
+                        <b>+23%</b>
+                        <strong>6654</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="changeColor d-f">
+        <div id="gear" class="gearBtn">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="colors">
+            <span data-color="red" class="color-1"><i class="fa-solid fa-check"></i></span>
+            <span data-color="green" class="color-2"><i class="fa-solid fa-check active"></i></span>
+            <span data-color="yellow"  class="color-3"><i class="fa-solid fa-check"></i></span>
+            <span data-color="violet" class="color-4"><i class="fa-solid fa-check"></i></span>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
